@@ -1,0 +1,60 @@
+.uploader-container {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.dropzone {
+  border: 3px dashed rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  padding: 3rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.dropzone:hover,
+.dropzone.active {
+  border-color: white;
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.02);
+}
+
+.dropzone-content {
+  color: white;
+}
+
+.upload-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.dropzone-text {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.dropzone-hint {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.preview-container {
+  position: relative;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.preview-text {
+  margin-top: 1rem;
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
