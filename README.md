@@ -398,10 +398,3 @@ This is a final year project. Feel free to:
 
 This project is for educational purposes.
 
-## 👨‍💻 Author
-
-Final Year Project - Explainable Deep Learning Framework for Pneumonia Detection
-
----
-
-**Note**: This system is for educational and research purposes only. Always consult healthcare professionals for medical diagnosis.
